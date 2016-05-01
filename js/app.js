@@ -21,11 +21,13 @@
 			exhibition: null,
 			about: null,
 			where: null,
-			cost: null,
+			cost: null
 		};
 
 		book.exhibition = $("#exhibition").val();
 		book.about = $("#about").val();
+		book.where = $("#where").val();
+		book.cost = $("#cost").val();
 
 		data.child("books").push(book);
 	});
