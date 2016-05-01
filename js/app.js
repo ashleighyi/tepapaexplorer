@@ -23,7 +23,7 @@
 			where: null,
 			when: null,
 			cost: null,
-			tag: null
+			category: null
 		};
 
 		book.exhibition = $("#exhibition").val();
@@ -31,7 +31,7 @@
 		book.where = $("#where").val();
 		book.when = $("#when").val();
 		book.cost = $("#cost").val();
-		book.tag = $("#tag").val();
+		book.category = $("#category").val();
 
 		data.child("books").push(book);
 	});
